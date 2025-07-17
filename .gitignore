@@ -1,5 +1,5 @@
 .env
-games
+game
 venv
 .venv
 __pycache__

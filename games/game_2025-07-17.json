@@ -1,0 +1,809 @@
+{
+  "date": "2025-07-17T19:44:07.466999",
+  "result": "Game incomplete",
+  "total_moves": 100,
+  "final_fen": "r1bq1Nk1/1pp1b1p1/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 71 51",
+  "game_over": false,
+  "moves": [
+    {
+      "move_number": 1,
+      "color": "white",
+      "move": "e4",
+      "evaluation": 0.2,
+      "explanation": "The move e4 is a standard and strong opening move for White. It immediately controls the center of the board, opens lines for the Queen and a Bishop, and prepares for further piece development. It is a fundamental principle to control the center in chess, and e4 is a direct way to achieve this. The opponent will likely respond with e5, leading to open games, or c5 (the Sicilian Defense), d5 (the Scandinavian Defense), or other less common responses. This move also allows for a flexible development plan.",
+      "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+    },
+    {
+      "move_number": 2,
+      "color": "black",
+      "move": "e5",
+      "evaluation": 0.1,
+      "explanation": "The move e5 is a standard and principled response to White's e4. It mirrors White's central control, challenges White's space advantage, and opens lines for Black's Queen and Bishop. This move leads to symmetrical positions and open games, focusing on piece development and tactical opportunities. It is the most common and theoretically sound reply, preventing White from establishing a strong central pawn structure without contest. By meeting e4 with e5, Black aims for equality in the opening.",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    },
+    {
+      "move_number": 3,
+      "color": "white",
+      "move": "Nf3",
+      "evaluation": 0.3,
+      "explanation": "The move Nf3 is a standard and strong developing move for White. It develops a piece to an active square, controls central squares, and prepares for castling. It is a solid and principled move that improves White's position and leads to a variety of possible continuations depending on Black's response. It avoids immediate tactical complications and focuses on long-term strategic development. Specifically, Nf3 develops the knight to a good square where it controls important central squares like d4 and e5. It prepares White to castle kingside, bringing the king to safety. It supports the e4 pawn and can potentially participate in attacks on the kingside later in the game. Black's most common responses will be Nc6, Nf6 or d6. The evaluation is slightly positive because white has developed a piece.",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2"
+    },
+    {
+      "move_number": 4,
+      "color": "black",
+      "move": "Nc6",
+      "evaluation": -0.1,
+      "explanation": "The move Nc6 is a standard and solid developing move for Black. It develops a piece to an active square, controls central squares (specifically d4), and prepares for further development, potentially including castling. It also directly challenges White's knight on f3, which could lead to a favorable exchange or force White to reposition the knight. The evaluation is slightly negative because white has the initiative and a bit more space, but the position is still very balanced.",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3"
+    },
+    {
+      "move_number": 5,
+      "color": "white",
+      "move": "Bb5",
+      "evaluation": 0.35,
+      "explanation": "Bb5 is a strong developing move that pins the knight on c6 to the pawn on d7, restricting black's development and potentially creating tactical opportunities. It also controls important squares and improves White's overall position. Black will likely respond with a6, c6, or Bd7.",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3"
+    },
+    {
+      "move_number": 6,
+      "color": "black",
+      "move": "a6",
+      "evaluation": -0.2,
+      "explanation": "The move a6 is a standard response to Bb5. It challenges the pin on the knight on c6 and prepares to develop the bishop to b7. This move aims to relieve the pressure on the d7 pawn and allows for more flexible development. White will likely respond with Ba4 or Bxc6. Although the evaluation is slightly negative, this move solidifies Black's position and avoids immediate tactical threats.",
+      "fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4"
+    },
+    {
+      "move_number": 7,
+      "color": "white",
+      "move": "Ba4",
+      "evaluation": 0.6,
+      "explanation": "The move Ba4 continues developing the bishop to a more active square while maintaining the pin on the knight on c6. It also opens the possibility of Bxc6 followed by d4, further improving White's central control and pawn structure. Black's likely response will be b5, which will create further tension on the queenside. The evaluation is slightly positive for white due to better development and potential for central control.",
+      "fen": "r1bqkbnr/1ppp1ppp/p1n5/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 1 4"
+    },
+    {
+      "move_number": 8,
+      "color": "black",
+      "move": "Nf6",
+      "evaluation": -0.1,
+      "explanation": "The move Nf6 develops the knight to a good square, controlling the center and preparing for castling. It also puts pressure on the e4 pawn and challenges White's control of the center. This is a standard developing move that improves Black's position and avoids immediate tactical threats. It also supports a later d5 push to challenge the center even further.",
+      "fen": "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 2 5"
+    },
+    {
+      "move_number": 9,
+      "color": "white",
+      "move": "O-O",
+      "evaluation": 0.35,
+      "explanation": "Castling kingside is a crucial move to improve king safety and connect the rooks. It gets the king out of the center and prepares the rooks for action. While there might be other developing moves, king safety is paramount, and this move allows for a more solid strategic position for White. Black will likely continue development with moves like Be7 or O-O as well.",
+      "fen": "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 b kq - 3 5"
+    },
+    {
+      "move_number": 10,
+      "color": "black",
+      "move": "Be7",
+      "evaluation": -0.1,
+      "explanation": "The move Be7 develops the bishop to a good square, prepares for castling, and supports the pawn on d7. It also avoids any immediate tactical complications and solidifies Black's position. White will likely continue development with moves like Re1 or d4. Castling is important for king safety.",
+      "fen": "r1bqk2r/1pppbppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 4 6"
+    },
+    {
+      "move_number": 11,
+      "color": "white",
+      "move": "Re1",
+      "evaluation": 0.3,
+      "explanation": "The move Re1 develops the rook to an open file, connects the rooks, and potentially prepares for future attacks on the kingside or central breakthroughs. It also supports the e4 pawn. While d4 is a tempting move to control the center, it could open lines for Black's pieces and lead to a more tactical game. Re1 is a more solid and positional move that improves White's overall structure and prepares for a long-term strategic game. It also allows White to react to Black's plans without immediately committing to a specific course of action.",
+      "fen": "r1bqk2r/1pppbppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQR1K1 b kq - 5 6"
+    },
+    {
+      "move_number": 12,
+      "color": "black",
+      "move": "Rg8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'model': 'gemini-2.0-flash-exp', 'location': 'global'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '1s'}]}}",
+      "fen": "r1bqk1r1/1pppbppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQR1K1 w q - 6 7"
+    },
+    {
+      "move_number": 13,
+      "color": "white",
+      "move": "Bxc6",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '1s'}]}}",
+      "fen": "r1bqk1r1/1pppbppp/p1B2n2/4p3/4P3/5N2/PPPP1PPP/RNBQR1K1 b q - 0 7"
+    },
+    {
+      "move_number": 14,
+      "color": "black",
+      "move": "Rh8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '1s'}]}}",
+      "fen": "r1bqk2r/1pppbppp/p1B2n2/4p3/4P3/5N2/PPPP1PPP/RNBQR1K1 w q - 1 8"
+    },
+    {
+      "move_number": 15,
+      "color": "white",
+      "move": "Bxd7+",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '1s'}]}}",
+      "fen": "r1bqk2r/1ppBbppp/p4n2/4p3/4P3/5N2/PPPP1PPP/RNBQR1K1 b q - 0 8"
+    },
+    {
+      "move_number": 16,
+      "color": "black",
+      "move": "Kf8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '1s'}]}}",
+      "fen": "r1bq1k1r/1ppBbppp/p4n2/4p3/4P3/5N2/PPPP1PPP/RNBQR1K1 w - - 1 9"
+    },
+    {
+      "move_number": 17,
+      "color": "white",
+      "move": "Be8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '1s'}]}}",
+      "fen": "r1bqBk1r/1pp1bppp/p4n2/4p3/4P3/5N2/PPPP1PPP/RNBQR1K1 b - - 2 9"
+    },
+    {
+      "move_number": 18,
+      "color": "black",
+      "move": "Rg8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '1s'}]}}",
+      "fen": "r1bqBkr1/1pp1bppp/p4n2/4p3/4P3/5N2/PPPP1PPP/RNBQR1K1 w - - 3 10"
+    },
+    {
+      "move_number": 19,
+      "color": "white",
+      "move": "Bxf7",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'model': 'gemini-2.0-flash-exp', 'location': 'global'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '1s'}]}}",
+      "fen": "r1bq1kr1/1pp1bBpp/p4n2/4p3/4P3/5N2/PPPP1PPP/RNBQR1K1 b - - 0 10"
+    },
+    {
+      "move_number": 20,
+      "color": "black",
+      "move": "Rh8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '1s'}]}}",
+      "fen": "r1bq1k1r/1pp1bBpp/p4n2/4p3/4P3/5N2/PPPP1PPP/RNBQR1K1 w - - 1 11"
+    },
+    {
+      "move_number": 21,
+      "color": "white",
+      "move": "Bg8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '0s'}]}}",
+      "fen": "r1bq1kBr/1pp1b1pp/p4n2/4p3/4P3/5N2/PPPP1PPP/RNBQR1K1 b - - 2 11"
+    },
+    {
+      "move_number": 22,
+      "color": "black",
+      "move": "Rxg8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '0s'}]}}",
+      "fen": "r1bq1kr1/1pp1b1pp/p4n2/4p3/4P3/5N2/PPPP1PPP/RNBQR1K1 w - - 0 12"
+    },
+    {
+      "move_number": 23,
+      "color": "white",
+      "move": "Ng5",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '0s'}]}}",
+      "fen": "r1bq1kr1/1pp1b1pp/p4n2/4p1N1/4P3/8/PPPP1PPP/RNBQR1K1 b - - 1 12"
+    },
+    {
+      "move_number": 24,
+      "color": "black",
+      "move": "Rh8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '0s'}]}}",
+      "fen": "r1bq1k1r/1pp1b1pp/p4n2/4p1N1/4P3/8/PPPP1PPP/RNBQR1K1 w - - 2 13"
+    },
+    {
+      "move_number": 25,
+      "color": "white",
+      "move": "Nxh7+",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '0s'}]}}",
+      "fen": "r1bq1k1r/1pp1b1pN/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 b - - 0 13"
+    },
+    {
+      "move_number": 26,
+      "color": "black",
+      "move": "Kg8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '0s'}]}}",
+      "fen": "r1bq2kr/1pp1b1pN/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 1 14"
+    },
+    {
+      "move_number": 27,
+      "color": "white",
+      "move": "Nf8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'model': 'gemini-2.0-flash-exp', 'location': 'global'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '0s'}]}}",
+      "fen": "r1bq1Nkr/1pp1b1p1/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 b - - 2 14"
+    },
+    {
+      "move_number": 28,
+      "color": "black",
+      "move": "Rh7",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '0s'}]}}",
+      "fen": "r1bq1Nk1/1pp1b1pr/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 3 15"
+    },
+    {
+      "move_number": 29,
+      "color": "white",
+      "move": "Nxh7",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '0s'}]}}",
+      "fen": "r1bq2k1/1pp1b1pN/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 b - - 0 15"
+    },
+    {
+      "move_number": 30,
+      "color": "black",
+      "move": "Kh8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '0s'}]}}",
+      "fen": "r1bq3k/1pp1b1pN/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 1 16"
+    },
+    {
+      "move_number": 31,
+      "color": "white",
+      "move": "Nf8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '0s'}]}}",
+      "fen": "r1bq1N1k/1pp1b1p1/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 b - - 2 16"
+    },
+    {
+      "move_number": 32,
+      "color": "black",
+      "move": "Kg8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '0s'}]}}",
+      "fen": "r1bq1Nk1/1pp1b1p1/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 3 17"
+    },
+    {
+      "move_number": 33,
+      "color": "white",
+      "move": "Nh7",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '59s'}]}}",
+      "fen": "r1bq2k1/1pp1b1pN/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 b - - 4 17"
+    },
+    {
+      "move_number": 34,
+      "color": "black",
+      "move": "Kh8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'model': 'gemini-2.0-flash-exp', 'location': 'global'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '59s'}]}}",
+      "fen": "r1bq3k/1pp1b1pN/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 5 18"
+    },
+    {
+      "move_number": 35,
+      "color": "white",
+      "move": "Nf8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '59s'}]}}",
+      "fen": "r1bq1N1k/1pp1b1p1/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 b - - 6 18"
+    },
+    {
+      "move_number": 36,
+      "color": "black",
+      "move": "Kg8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'model': 'gemini-2.0-flash-exp', 'location': 'global'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '59s'}]}}",
+      "fen": "r1bq1Nk1/1pp1b1p1/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 7 19"
+    },
+    {
+      "move_number": 37,
+      "color": "white",
+      "move": "Nh7",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '59s'}]}}",
+      "fen": "r1bq2k1/1pp1b1pN/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 b - - 8 19"
+    },
+    {
+      "move_number": 38,
+      "color": "black",
+      "move": "Kh8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '59s'}]}}",
+      "fen": "r1bq3k/1pp1b1pN/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 9 20"
+    },
+    {
+      "move_number": 39,
+      "color": "white",
+      "move": "Nf8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '59s'}]}}",
+      "fen": "r1bq1N1k/1pp1b1p1/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 b - - 10 20"
+    },
+    {
+      "move_number": 40,
+      "color": "black",
+      "move": "Kg8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'model': 'gemini-2.0-flash-exp', 'location': 'global'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '59s'}]}}",
+      "fen": "r1bq1Nk1/1pp1b1p1/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 11 21"
+    },
+    {
+      "move_number": 41,
+      "color": "white",
+      "move": "Nh7",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'model': 'gemini-2.0-flash-exp', 'location': 'global'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '59s'}]}}",
+      "fen": "r1bq2k1/1pp1b1pN/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 b - - 12 21"
+    },
+    {
+      "move_number": 42,
+      "color": "black",
+      "move": "Kh8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '58s'}]}}",
+      "fen": "r1bq3k/1pp1b1pN/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 13 22"
+    },
+    {
+      "move_number": 43,
+      "color": "white",
+      "move": "Nf8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '58s'}]}}",
+      "fen": "r1bq1N1k/1pp1b1p1/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 b - - 14 22"
+    },
+    {
+      "move_number": 44,
+      "color": "black",
+      "move": "Kg8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '58s'}]}}",
+      "fen": "r1bq1Nk1/1pp1b1p1/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 15 23"
+    },
+    {
+      "move_number": 45,
+      "color": "white",
+      "move": "Nh7",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '58s'}]}}",
+      "fen": "r1bq2k1/1pp1b1pN/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 b - - 16 23"
+    },
+    {
+      "move_number": 46,
+      "color": "black",
+      "move": "Kh8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '58s'}]}}",
+      "fen": "r1bq3k/1pp1b1pN/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 17 24"
+    },
+    {
+      "move_number": 47,
+      "color": "white",
+      "move": "Nf8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '58s'}]}}",
+      "fen": "r1bq1N1k/1pp1b1p1/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 b - - 18 24"
+    },
+    {
+      "move_number": 48,
+      "color": "black",
+      "move": "Kg8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'model': 'gemini-2.0-flash-exp', 'location': 'global'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '58s'}]}}",
+      "fen": "r1bq1Nk1/1pp1b1p1/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 19 25"
+    },
+    {
+      "move_number": 49,
+      "color": "white",
+      "move": "Nh7",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'model': 'gemini-2.0-flash-exp', 'location': 'global'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '58s'}]}}",
+      "fen": "r1bq2k1/1pp1b1pN/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 b - - 20 25"
+    },
+    {
+      "move_number": 50,
+      "color": "black",
+      "move": "Kh8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'model': 'gemini-2.0-flash-exp', 'location': 'global'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '58s'}]}}",
+      "fen": "r1bq3k/1pp1b1pN/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 21 26"
+    },
+    {
+      "move_number": 51,
+      "color": "white",
+      "move": "Nf8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '58s'}]}}",
+      "fen": "r1bq1N1k/1pp1b1p1/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 b - - 22 26"
+    },
+    {
+      "move_number": 52,
+      "color": "black",
+      "move": "Kg8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '57s'}]}}",
+      "fen": "r1bq1Nk1/1pp1b1p1/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 23 27"
+    },
+    {
+      "move_number": 53,
+      "color": "white",
+      "move": "Nh7",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '57s'}]}}",
+      "fen": "r1bq2k1/1pp1b1pN/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 b - - 24 27"
+    },
+    {
+      "move_number": 54,
+      "color": "black",
+      "move": "Kh8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '57s'}]}}",
+      "fen": "r1bq3k/1pp1b1pN/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 25 28"
+    },
+    {
+      "move_number": 55,
+      "color": "white",
+      "move": "Nf8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '57s'}]}}",
+      "fen": "r1bq1N1k/1pp1b1p1/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 b - - 26 28"
+    },
+    {
+      "move_number": 56,
+      "color": "black",
+      "move": "Kg8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'model': 'gemini-2.0-flash-exp', 'location': 'global'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '57s'}]}}",
+      "fen": "r1bq1Nk1/1pp1b1p1/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 27 29"
+    },
+    {
+      "move_number": 57,
+      "color": "white",
+      "move": "Nh7",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '57s'}]}}",
+      "fen": "r1bq2k1/1pp1b1pN/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 b - - 28 29"
+    },
+    {
+      "move_number": 58,
+      "color": "black",
+      "move": "Kh8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '57s'}]}}",
+      "fen": "r1bq3k/1pp1b1pN/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 29 30"
+    },
+    {
+      "move_number": 59,
+      "color": "white",
+      "move": "Nf8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '57s'}]}}",
+      "fen": "r1bq1N1k/1pp1b1p1/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 b - - 30 30"
+    },
+    {
+      "move_number": 60,
+      "color": "black",
+      "move": "Kg8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'model': 'gemini-2.0-flash-exp', 'location': 'global'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '57s'}]}}",
+      "fen": "r1bq1Nk1/1pp1b1p1/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 31 31"
+    },
+    {
+      "move_number": 61,
+      "color": "white",
+      "move": "Nh7",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}}",
+      "fen": "r1bq2k1/1pp1b1pN/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 b - - 32 31"
+    },
+    {
+      "move_number": 62,
+      "color": "black",
+      "move": "Kh8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}}",
+      "fen": "r1bq3k/1pp1b1pN/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 33 32"
+    },
+    {
+      "move_number": 63,
+      "color": "white",
+      "move": "Nf8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}}",
+      "fen": "r1bq1N1k/1pp1b1p1/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 b - - 34 32"
+    },
+    {
+      "move_number": 64,
+      "color": "black",
+      "move": "Kg8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}}",
+      "fen": "r1bq1Nk1/1pp1b1p1/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 35 33"
+    },
+    {
+      "move_number": 65,
+      "color": "white",
+      "move": "Nh7",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}}",
+      "fen": "r1bq2k1/1pp1b1pN/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 b - - 36 33"
+    },
+    {
+      "move_number": 66,
+      "color": "black",
+      "move": "Kh8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}}",
+      "fen": "r1bq3k/1pp1b1pN/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 37 34"
+    },
+    {
+      "move_number": 67,
+      "color": "white",
+      "move": "Nf8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}}",
+      "fen": "r1bq1N1k/1pp1b1p1/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 b - - 38 34"
+    },
+    {
+      "move_number": 68,
+      "color": "black",
+      "move": "Kg8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}}",
+      "fen": "r1bq1Nk1/1pp1b1p1/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 39 35"
+    },
+    {
+      "move_number": 69,
+      "color": "white",
+      "move": "Nh7",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}}",
+      "fen": "r1bq2k1/1pp1b1pN/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 b - - 40 35"
+    },
+    {
+      "move_number": 70,
+      "color": "black",
+      "move": "Kh8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '55s'}]}}",
+      "fen": "r1bq3k/1pp1b1pN/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 41 36"
+    },
+    {
+      "move_number": 71,
+      "color": "white",
+      "move": "Nf8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'model': 'gemini-2.0-flash-exp', 'location': 'global'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '55s'}]}}",
+      "fen": "r1bq1N1k/1pp1b1p1/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 b - - 42 36"
+    },
+    {
+      "move_number": 72,
+      "color": "black",
+      "move": "Kg8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '55s'}]}}",
+      "fen": "r1bq1Nk1/1pp1b1p1/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 43 37"
+    },
+    {
+      "move_number": 73,
+      "color": "white",
+      "move": "Nh7",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'model': 'gemini-2.0-flash-exp', 'location': 'global'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '55s'}]}}",
+      "fen": "r1bq2k1/1pp1b1pN/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 b - - 44 37"
+    },
+    {
+      "move_number": 74,
+      "color": "black",
+      "move": "Kh8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '55s'}]}}",
+      "fen": "r1bq3k/1pp1b1pN/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 45 38"
+    },
+    {
+      "move_number": 75,
+      "color": "white",
+      "move": "Nf8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '55s'}]}}",
+      "fen": "r1bq1N1k/1pp1b1p1/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 b - - 46 38"
+    },
+    {
+      "move_number": 76,
+      "color": "black",
+      "move": "Kg8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '55s'}]}}",
+      "fen": "r1bq1Nk1/1pp1b1p1/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 47 39"
+    },
+    {
+      "move_number": 77,
+      "color": "white",
+      "move": "Nh7",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '55s'}]}}",
+      "fen": "r1bq2k1/1pp1b1pN/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 b - - 48 39"
+    },
+    {
+      "move_number": 78,
+      "color": "black",
+      "move": "Kh8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'model': 'gemini-2.0-flash-exp', 'location': 'global'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '54s'}]}}",
+      "fen": "r1bq3k/1pp1b1pN/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 49 40"
+    },
+    {
+      "move_number": 79,
+      "color": "white",
+      "move": "Nf8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '54s'}]}}",
+      "fen": "r1bq1N1k/1pp1b1p1/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 b - - 50 40"
+    },
+    {
+      "move_number": 80,
+      "color": "black",
+      "move": "Kg8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '54s'}]}}",
+      "fen": "r1bq1Nk1/1pp1b1p1/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 51 41"
+    },
+    {
+      "move_number": 81,
+      "color": "white",
+      "move": "Nh7",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '54s'}]}}",
+      "fen": "r1bq2k1/1pp1b1pN/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 b - - 52 41"
+    },
+    {
+      "move_number": 82,
+      "color": "black",
+      "move": "Kh8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'model': 'gemini-2.0-flash-exp', 'location': 'global'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '54s'}]}}",
+      "fen": "r1bq3k/1pp1b1pN/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 53 42"
+    },
+    {
+      "move_number": 83,
+      "color": "white",
+      "move": "Nf8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '54s'}]}}",
+      "fen": "r1bq1N1k/1pp1b1p1/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 b - - 54 42"
+    },
+    {
+      "move_number": 84,
+      "color": "black",
+      "move": "Kg8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '54s'}]}}",
+      "fen": "r1bq1Nk1/1pp1b1p1/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 55 43"
+    },
+    {
+      "move_number": 85,
+      "color": "white",
+      "move": "Nh7",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '54s'}]}}",
+      "fen": "r1bq2k1/1pp1b1pN/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 b - - 56 43"
+    },
+    {
+      "move_number": 86,
+      "color": "black",
+      "move": "Kh8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '53s'}]}}",
+      "fen": "r1bq3k/1pp1b1pN/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 57 44"
+    },
+    {
+      "move_number": 87,
+      "color": "white",
+      "move": "Nf8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '53s'}]}}",
+      "fen": "r1bq1N1k/1pp1b1p1/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 b - - 58 44"
+    },
+    {
+      "move_number": 88,
+      "color": "black",
+      "move": "Kg8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '53s'}]}}",
+      "fen": "r1bq1Nk1/1pp1b1p1/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 59 45"
+    },
+    {
+      "move_number": 89,
+      "color": "white",
+      "move": "Nh7",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '53s'}]}}",
+      "fen": "r1bq2k1/1pp1b1pN/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 b - - 60 45"
+    },
+    {
+      "move_number": 90,
+      "color": "black",
+      "move": "Kh8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '53s'}]}}",
+      "fen": "r1bq3k/1pp1b1pN/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 61 46"
+    },
+    {
+      "move_number": 91,
+      "color": "white",
+      "move": "Nf8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '53s'}]}}",
+      "fen": "r1bq1N1k/1pp1b1p1/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 b - - 62 46"
+    },
+    {
+      "move_number": 92,
+      "color": "black",
+      "move": "Kg8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '53s'}]}}",
+      "fen": "r1bq1Nk1/1pp1b1p1/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 63 47"
+    },
+    {
+      "move_number": 93,
+      "color": "white",
+      "move": "Nh7",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '53s'}]}}",
+      "fen": "r1bq2k1/1pp1b1pN/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 b - - 64 47"
+    },
+    {
+      "move_number": 94,
+      "color": "black",
+      "move": "Kh8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'model': 'gemini-2.0-flash-exp', 'location': 'global'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '52s'}]}}",
+      "fen": "r1bq3k/1pp1b1pN/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 65 48"
+    },
+    {
+      "move_number": 95,
+      "color": "white",
+      "move": "Nf8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '52s'}]}}",
+      "fen": "r1bq1N1k/1pp1b1p1/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 b - - 66 48"
+    },
+    {
+      "move_number": 96,
+      "color": "black",
+      "move": "Kg8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '52s'}]}}",
+      "fen": "r1bq1Nk1/1pp1b1p1/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 67 49"
+    },
+    {
+      "move_number": 97,
+      "color": "white",
+      "move": "Nh7",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '52s'}]}}",
+      "fen": "r1bq2k1/1pp1b1pN/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 b - - 68 49"
+    },
+    {
+      "move_number": 98,
+      "color": "black",
+      "move": "Kh8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '52s'}]}}",
+      "fen": "r1bq3k/1pp1b1pN/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 69 50"
+    },
+    {
+      "move_number": 99,
+      "color": "white",
+      "move": "Nf8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '52s'}]}}",
+      "fen": "r1bq1N1k/1pp1b1p1/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 b - - 70 50"
+    },
+    {
+      "move_number": 100,
+      "color": "black",
+      "move": "Kg8",
+      "evaluation": 0.0,
+      "explanation": "Fallback move due to AI error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Please migrate to Gemini 2.0 Flash Preview (Image Generation) (models/gemini-2.0-flash-preview-image-generation) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '52s'}]}}",
+      "fen": "r1bq1Nk1/1pp1b1p1/p4n2/4p3/4P3/8/PPPP1PPP/RNBQR1K1 w - - 71 51"
+    }
+  ]
+}
