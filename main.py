@@ -7,6 +7,8 @@ import chess.pgn
 import json
 from datetime import datetime
 from typing import Optional
+import sys
+import glob
 
 # Load environment variables from .env file
 load_dotenv()
@@ -66,7 +68,45 @@ class ChessGame(BaseModel):
     def get_board_visualization(self) -> str:
         """Get a text representation of the current board position."""
         board = chess.Board(self.state.board)
-        return str(board)
+        return self.format_board_unicode(board)
+    
+    @staticmethod
+    def format_board_unicode(board: chess.Board) -> str:
+        """Format chess board with Unicode pieces for better visualization."""
+        # Unicode chess pieces
+        piece_symbols = {
+            'P': '♙', 'R': '♖', 'N': '♘', 'B': '♗', 'Q': '♕', 'K': '♔',  # White pieces
+            'p': '♟', 'r': '♜', 'n': '♞', 'b': '♝', 'q': '♛', 'k': '♚'   # Black pieces
+        }
+        
+        lines = []
+        lines.append("  ┌───┬───┬───┬───┬───┬───┬───┬───┐")
+        
+        for rank in range(7, -1, -1):  # 8 to 1
+            line = f"{rank + 1} │"
+            for file in range(8):  # a to h
+                square = chess.square(file, rank)
+                piece = board.piece_at(square)
+                
+                if piece:
+                    symbol = piece_symbols.get(piece.symbol(), piece.symbol())
+                else:
+                    # Checkered pattern for empty squares
+                    if (rank + file) % 2 == 0:
+                        symbol = ' '  # Light square
+                    else:
+                        symbol = ' '  # Dark square
+                
+                line += f" {symbol} │"
+            lines.append(line)
+            
+            if rank > 0:
+                lines.append("  ├───┼───┼───┼───┼───┼───┼───┼───┤")
+        
+        lines.append("  └───┴───┴───┴───┴───┴───┴───┴───┘")
+        lines.append("    a   b   c   d   e   f   g   h")
+        
+        return "\n".join(lines)
 
     def get_move_history_text(self) -> str:
         """Get formatted move history for the prompt."""
@@ -258,7 +298,7 @@ You are playing as {color}. Make your move now."""
 
     def save_game(self, game_summary: dict) -> str:
         """Save the completed game to a JSON file."""
-        date_str = datetime.now().strftime("%Y-%m-%d")
+        date_str = datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
         filename = f"game_{date_str}.json"
         filepath = os.path.join("games", filename)
         
@@ -278,7 +318,157 @@ You are playing as {color}. Make your move now."""
         print(f"Game saved to: {filepath}")
         return filepath
 
-def main():
+def replay_game(json_file: str):
+    """Replay a saved game move by move."""
+    try:
+        with open(json_file, 'r', encoding='utf-8') as f:
+            game_data = json.load(f)
+        
+        print(f"=== Replaying Game ===")
+        print(f"Date: {game_data['date']}")
+        print(f"Result: {game_data['result']}")
+        print(f"Total moves: {game_data['total_moves']}")
+        print("\nPress Enter to see each move, Ctrl+C to exit")
+        print("=" * 50)
+        
+        # Start with initial position
+        board = chess.Board()
+        print(f"\nInitial position:")
+        print(ChessGame.format_board_unicode(board))
+        
+        try:
+            input("\nPress Enter to start...")
+        except KeyboardInterrupt:
+            print("\nReplay cancelled.")
+            return
+        
+        # Replay each move
+        for move_data in game_data['moves']:
+            try:
+                move_num = move_data['move_number']
+                color = move_data['color']
+                move = move_data['move']
+                evaluation = move_data['evaluation']
+                explanation = move_data['explanation']
+                
+                # Apply the move
+                chess_move = board.parse_san(move)
+                board.push(chess_move)
+                
+                print(f"\nMove {move_num}: {color.title()} plays {move}")
+                print(f"Evaluation: {evaluation:.2f}")
+                print(f"Reasoning: {explanation}")
+                print()
+                print(ChessGame.format_board_unicode(board))
+                
+                if move_num < game_data['total_moves']:
+                    try:
+                        input(f"\nPress Enter for next move...")
+                    except KeyboardInterrupt:
+                        print("\nReplay cancelled.")
+                        return
+                        
+            except Exception as e:
+                print(f"Error replaying move {move_data.get('move_number', '?')}: {e}")
+                continue
+        
+        print(f"\n=== Game Over ===")
+        print(f"Final result: {game_data['result']}")
+        
+    except FileNotFoundError:
+        print(f"Game file not found: {json_file}")
+    except json.JSONDecodeError:
+        print(f"Invalid JSON file: {json_file}")
+    except Exception as e:
+        print(f"Error replaying game: {e}")
+
+def list_saved_games():
+    """List all saved games in the games directory."""
+    games_pattern = os.path.join("games", "game_*.json")
+    game_files = glob.glob(games_pattern)
+    
+    if not game_files:
+        print("No saved games found in the games directory.")
+        return []
+    
+    print("Saved games:")
+    game_files.sort(reverse=True)  # Most recent first
+    
+    for i, filepath in enumerate(game_files, 1):
+        filename = os.path.basename(filepath)
+        try:
+            with open(filepath, 'r', encoding='utf-8') as f:
+                game_data = json.load(f)
+            date = game_data.get('date', 'Unknown date')
+            result = game_data.get('result', 'Unknown result')
+            moves = game_data.get('total_moves', 0)
+            print(f"{i:2d}. {filename} - {date[:19]} - {result} ({moves} moves)")
+        except:
+            print(f"{i:2d}. {filename} - (Error reading file)")
+    
+    return game_files
+
+def interactive_menu():
+    """Interactive menu for playing or replaying games."""
+    while True:
+        print("\n" + "=" * 50)
+        print("🏁 Gemini Chess Game Menu")
+        print("=" * 50)
+        print("1. Play new game")
+        print("2. Replay saved game")
+        print("3. List saved games")
+        print("4. Exit")
+        print("=" * 50)
+        
+        try:
+            choice = input("Enter your choice (1-4): ").strip()
+            
+            if choice == "1":
+                print("\nStarting new game...")
+                main_game()
+            
+            elif choice == "2":
+                game_files = list_saved_games()
+                if game_files:
+                    try:
+                        selection = input(f"\nEnter game number (1-{len(game_files)}) or filename: ").strip()
+                        
+                        if selection.isdigit():
+                            game_index = int(selection) - 1
+                            if 0 <= game_index < len(game_files):
+                                replay_game(game_files[game_index])
+                            else:
+                                print("Invalid game number.")
+                        else:
+                            # Try as filename
+                            if not selection.endswith('.json'):
+                                selection += '.json'
+                            filepath = os.path.join("games", selection)
+                            if os.path.exists(filepath):
+                                replay_game(filepath)
+                            else:
+                                print(f"Game file not found: {selection}")
+                    except ValueError:
+                        print("Invalid input.")
+            
+            elif choice == "3":
+                list_saved_games()
+            
+            elif choice == "4":
+                print("Goodbye!")
+                break
+            
+            else:
+                print("Invalid choice. Please enter 1-4.")
+                
+        except KeyboardInterrupt:
+            print("\n\nGoodbye!")
+            break
+        except EOFError:
+            print("\n\nGoodbye!")
+            break
+
+def main_game():
     """Main function to run a chess game between two Gemini models."""
     try:
         # Create a new chess game
@@ -297,6 +487,27 @@ def main():
         
     except Exception as e:
         print(f"Error running game: {e}")
+
+def main():
+    """Main entry point with interactive menu."""
+    if len(sys.argv) > 1:
+        # Command line argument provided
+        arg = sys.argv[1]
+        if arg == "--play":
+            main_game()
+        elif arg == "--replay":
+            if len(sys.argv) > 2:
+                replay_game(sys.argv[2])
+            else:
+                print("Please provide a game file to replay.")
+                print("Usage: python main.py --replay <game_file.json>")
+        elif arg == "--list":
+            list_saved_games()
+        else:
+            print("Unknown argument. Use --play, --replay <file>, or --list")
+    else:
+        # Interactive menu
+        interactive_menu()
 
 if __name__ == "__main__":
     main() 
