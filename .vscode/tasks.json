@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Chess Game",
+			"type": "shell",
+			"command": "F:/Dev/gemini_chess/.venv/Scripts/python.exe",
+			"args": [
+				"main.py"
+			],
+			"group": "build",
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}
