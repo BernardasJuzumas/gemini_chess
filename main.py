@@ -76,7 +76,7 @@ class ChessGame(BaseModel):
         history_text = "Move history:\n"
         for i, move_response in enumerate(self.state.history, 1):
             color = "White" if i % 2 == 1 else "Black"
-            history_text += f"{i}. {color}: {move_response.move} - {move_response.explanation}\n"
+            history_text += f"{i}. {color}: {move_response.move}"
         return history_text
 
     def create_prompt_for_ai(self, color: str) -> str:
