@@ -76,7 +76,7 @@ class ChessGame(BaseModel):
         # Unicode chess pieces
         piece_symbols = {
             'P': '♙', 'R': '♖', 'N': '♘', 'B': '♗', 'Q': '♕', 'K': '♔',  # White pieces
-            'p': '♟', 'r': '♜', 'n': '♞', 'b': '♝', 'q': '♛', 'k': '♚'   # Black pieces
+            'p': '♟', 'r': '♜', 'n': '♞', 'b': '♝', 'q': '♛', 'k': '♚',   # Black pieces
         }
         
         lines = []

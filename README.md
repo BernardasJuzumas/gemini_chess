@@ -1,6 +1,6 @@
 # Gemini Chess Game
 
-A chess game implementation where two Google Gemini AI models play against each other, featuring beautiful Unicode board visualization and interactive game replay.
+A chess game implementation where two Google Gemini AI models play against each other, featuring unicode board visualization and interactive game replay.
 
 ## Setup
 
